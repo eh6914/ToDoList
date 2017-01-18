@@ -1,0 +1,11 @@
+body{
+	background-color:#6F6F6F;
+}
+
+/*List Box Wrapper*/
+.todolist{
+	background-color:#FFFFFF;
+	margin:15px auto;
+	width:100%;
+	max-width:400px;
+}
