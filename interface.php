@@ -18,20 +18,16 @@
 <?php require("connect.php"); ?>
 </ul>
     <li>
-        <form method="post" autocomplete="off">
+        <form method="post" autocomplete="off" name="idontknow" action="additem.php">
             <input class="index" type="hidden" name="index" />
-            <input name="title" value="" />
+            <input name="title" value="" placeholder="Add new item here..."/>
 
             <button name="action" value="update">
                 <span>Add</span>
             </button>
 
-            <button name="action" value="remove">
+            <button name="action"  value="remove">
                 <span>Remove</span>
-            </button>
-
-            <button name="action" value="complete">
-                <span>Complete</span>
             </button>
         </form>
     </li>
